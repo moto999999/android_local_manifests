@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest>      
-        <!-- LineageOS / LineageOsMaxPlus / device -->
-        <project name="LineageOsMaxPlus/android_device_leeco_msm8996-common" path="device/leeco/msm8996-common" remote="github" revision="lineage-16.0"/>
-        <project name="LineageOsMaxPlus/android_device_leeco_max_plus" path="device/leeco/max_plus" remote="github" revision="lineage-16.0"/>
-        <project name="LineageOsMaxPlus/android_kernel_leeco_msm8996" path="kernel/leeco/msm8996" remote="github" revision="lineage-16.0"/>
-
-        <!-- Dependencies -->
-        <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0"/>
-        <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-16.0"/>
-
-        <!-- TheMuppets / LineageOsMaxPlus / vendor -->
-        <project name="LineageOsMaxPlus/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="lineage-16.0"/>
-
+<manifest>
+   <!-- moto999999 / device / vendor -->
+   <project name="moto999999/android_device_leeco_msm8996-common" path="device/leeco/msm8996-common" remote="github" revision="lineage-16.0" />
+   <project name="moto999999/android_device_leeco_x10" path="device/leeco/x10" remote="github" revision="lineage-16.0" />
+   <project name="moto999999/android_kernel_leeco_msm8996" path="kernel/leeco/msm8996" remote="github" revision="lineage-16.0" />
+   <project name="moto999999/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="lineage-16.0" />
+   <!-- Dependencies -->
+   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
+   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-16.0" />
 </manifest>
-
