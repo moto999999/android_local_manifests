@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <project name="moto999999/android_device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" remote="github" revision="lineage-21" />
+   <project name="moto999999/android_device_oneplus_lemonadep" path="device/oneplus/lemonadep" remote="github" revision="lineage-21" />
+   <project name="moto999999/proprietary_vendor_oneplus_lemonadep" path="vendor/oneplus/lemonadep" remote="github" revision="lineage-21" />
+   <project name="TheMuppets/proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" remote="github" revision="lineage-21" />
+   <project name="moto999999/android_vendor_oneplus_camera" path="vendor/oneplus/camera" remote="github" revision="lineage-21" />
+   <project name="engstk/op9" path="kernel/oneplus/sm8350" remote="github" revision="blu_spark-14-custom" />
+   <remote  name="gitlab"
+         fetch="https://gitlab.com" />
+   <project name="MindTheGapps/vendor_gapps" path="vendor/gapps" remote="gitlab" revision="upsilon" />
+</manifest>
