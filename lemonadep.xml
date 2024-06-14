@@ -5,8 +5,9 @@
    <project name="moto999999/proprietary_vendor_oneplus_lemonadep" path="vendor/oneplus/lemonadep" remote="github" revision="lineage-21" />
    <project name="TheMuppets/proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" remote="github" revision="lineage-21" />
    <project name="moto999999/android_vendor_oneplus_camera" path="vendor/oneplus/camera" remote="github" revision="lineage-21" />
-   <project name="engstk/op9" path="kernel/oneplus/sm8350" remote="github" revision="blu_spark-14-custom" />
+   <project name="LineageOS/android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" remote="github" revision="lineage-21" />
    <remote  name="gitlab"
          fetch="https://gitlab.com" />
    <project name="MindTheGapps/vendor_gapps" path="vendor/gapps" remote="gitlab" revision="upsilon" />
+   <project name="LineageOS/android_hardware_oplus" path="hardware/oplus" remote="github" revision="lineage-21" />
 </manifest>
